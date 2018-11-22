@@ -3,7 +3,9 @@ pipeline {
   stages {
     stage ('Build')
       {
-        echo 'This is Build step in Jenkins Pipeline'
+        steps {
+              echo 'This is Build step in Jenkins Pipeline'
+              }
       }
   }
 }
